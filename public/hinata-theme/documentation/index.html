@@ -1,0 +1,586 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title> Hinata Documentation </title>
+    <link rel="icon" href="images/app.ico">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,700" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <link rel="stylesheet" type="text/css" href="syntax-highlighter/styles/shCore.css" media="all">
+    <link rel="stylesheet" type="text/css" href="syntax-highlighter/styles/shThemeRDark.css" media="all">
+
+    <link rel="stylesheet" href="css/style.css">
+    <!--[if lt IE 9]>
+    <script src="js/html5shiv.min.js"></script>
+    <script src="js/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body data-spy="scroll" data-target="#main-navbar" data-offset="130">
+<nav class="slide-menu" id="main-navbar">
+    <ul class="dash_links list-unstyled nav">
+        <li>
+            <a href="#welcome">Welcome</a>
+        </li>
+        <li>
+            <a href="#start"> Start</a>
+        </li>
+        <li>
+            <a href="#color"> Theme Color</a>
+        </li>
+        <li>
+            <a href="#navbar"> Navbar </a>
+        </li>
+        <li>
+            <a href="#statistics"> Statistics </a>
+        </li>
+        <li>
+            <a href="#coming_soon"> Coming Soon </a>
+        </li>
+        <li>
+            <a href="#faq"> FAQ </a>
+        </li>
+        <li>
+            <a href="#video"> Video </a>
+        </li>
+    </ul>
+</nav>
+<!-- overlay will show when the menu opened in small size -->
+<div class="mobile-menu-overlay"></div>
+<div class="top_navbar">
+    <div class="logo-box">
+        <h3>Hinata</h3>
+    </div>
+    <span class="menu-toggle">
+        <div class="chart"></div>
+        <div class="chart"></div>
+        <div class="chart"></div>
+      </span>
+</div>
+<!-- dashboard page content -->
+<div class="dash_page_content">
+    <div class="dash_panel" id="welcome">
+        <img src="images/template%20logo.png" class="img-responsive center-block" width="200">
+        <h1 class="text-center">Hinata - Documentation</h1>
+        <hr>
+        <p>
+            Hinata is an App landing page created to make your App looks outstanding between the crowd. It has clear
+            and simple design for best visual appearance and elegant feel. The features and sections let you present the
+            App beautifully and with its interactions, visitor will enjoy digging what your App is about and finally use
+            it. The theme also has ultra responsive design that make the layout looks good in any screen size, thus
+            impacting great content accessibility.
+        </p>
+        <hr>
+        <ul class="list-unstyled">
+            <li>Created: 25/10/2017</li>
+            <li>By:
+                <a href="https://themeforest.net/user/webrouk/portfolio">
+                    Mrkayo
+                </a>
+            </li>
+            <li>Email:
+                <a href="mailto:info@mrkayo.com">
+                    info@mrkayo.com
+                </a>
+            </li>
+        </ul>
+    </div>
+    <div class="dash_panel" id="start">
+        <h1 class="section-title">What We Need To Start</h1>
+        <ol>
+            <li>Unzip The Template File</li>
+            <li>Install Code Editor Like <a href="https://code.visualstudio.com/" target="_blank">vs code</a></li>
+            <li>Open The Project In The Code Editor</li>
+            <li>Open <span class="blue-bold">index.html</span> on your web browser to see your website</li>
+        </ol>
+        <hr>
+        <p>
+            i will learn you how to edit the template in next sections
+        </p>
+    </div>
+    <div class="dash_panel" id="color">
+        <h1 class="section-title">Theme Colors</h1>
+        <h3>1- Use One Of My Color Schema</h3>
+        <ol>
+            <li>Open <span class="blue-bold">html</span> page in the code editor</li>
+            <li>go to the code in the preview and change the href value to one of my themeColor file inside <span
+                    class="blue-bold">css/gradient_colors</span></li>
+            <li>to change the link you need to change The value of <span class="blue-bold">href</span> attribute to your
+                link <br> example <span class="blue-bold">href="http://example.com"</span></li>
+        </ol>
+        <div class="pre-container">
+            <pre class="brush: html;">
+                <link rel="stylesheet" href="css/gradient_colors/theme_color_1.css" id="color-option">
+            </pre>
+        </div>
+        <h3>2- make custom color</h3>
+        <p>
+            to make custom color you can make edit in any themeColor file inside <span class="blue-bold">css/gradient_colors</span>
+            and include it into your HTML file
+            <br>
+            or you can edit this code and insert it into your css
+        </p>
+        <div class="pre-container">
+            <pre class="brush: css;">
+                /*
+                Main Color: #4B1248
+                Sec Color: #F0C27B
+                linear-gradient(to right, rgba(75, 18, 72, 0.75), rgba(240, 194, 123, 0.75))
+                */
+
+                .gradient-bg,
+                .appsLand-btn.appsLand-btn-gradient:before,
+                .mini-feature .mini-feature-box .icon-box:before,
+                .pricing .pricing-tables .pricing-recommended .pricing-price,
+                .blog .normal-post .entry-content .entry-post-info .posted-on,
+                .blog .list-post .entry-content .entry-post-info .posted-on,
+                .loading,
+                .hover-gradient:before{
+                    background-image: -webkit-linear-gradient(to right, #4B1248 0%, #F0C27B 100%) !important;
+                    background-image: -o-linear-gradient(to right, #4B1248 0%, #F0C27B 100%) !important;
+                    background-image: -moz-linear-gradient(to right, #4B1248 0%, #F0C27B 100%) !important;
+                    background-image: linear-gradient(to right, #4B1248 0%, #F0C27B 100%) !important;
+                }
+                .without_bg_images .app-overlay {
+                    background-image: -webkit-linear-gradient(to right, #4B1248 0%, #F0C27B 100%) !important;
+                    background-image: -o-linear-gradient(to right, #4B1248 0%, #F0C27B 100%) !important;
+                    background-image: -moz-linear-gradient(to right, #4B1248 0%, #F0C27B 100%) !important;
+                    background-image: linear-gradient(to right, #4B1248 0%, #F0C27B 100%) !important;
+                }
+                .gradient-text,
+                .section-title.style-gradient h2,
+                .appsLand-btn.appsLand-btn-default,
+                .appsLand-btn.appsLand-btn-gradient:hover span,
+                .appsLand-btn.appsLand-btn-gradient:hover i,
+                .appsLand-btn.appsLand-btn-gradient.btn-inverse span,
+                .appsLand-btn.appsLand-btn-gradient.btn-inverse i,
+                .mini-feature .mini-feature-box .icon-box i,
+                .pricing .pricing-tables .pricing-price p {
+                    background-image: -webkit-linear-gradient(to right, #4B1248 0%, #F0C27B 100%);
+                    background-image: -o-linear-gradient(to right, #4B1248 0%, #F0C27B 100%);
+                    background-image: -moz-linear-gradient(to right, #4B1248 0%, #F0C27B 100%);
+                    background-image: linear-gradient(to right, #4B1248 0%, #F0C27B 100%);
+                }
+                .main-color-text,
+                .appsLand-navbar.active-navbar .navbar-nav > li:hover,
+                .appsLand-navbar.active-navbar .navbar-nav > li.active,
+                .features__style-2 .feat-tabs li a:hover,
+                .features__style-2 .feat-tabs li.active a,
+                .team .team-member .member-info .member-social a:hover,
+                .blog .normal-post .entry-content .entry-post-info h4 a:hover,
+                .blog .normal-post .entry-content .entry-expert .post-readMore a.read-more-link,
+                .blog .list-post .entry-content .entry-post-info h4 a:hover,
+                .blog .list-post .entry-content .entry-expert .post-readMore a.read-more-link,
+                .apps-footer .footer-bottom p a {
+                    color: #4B1248 !important;
+                }
+                .sec-color-text,
+                .blog .normal-post .entry-content .entry-expert .post-readMore a:hover,
+                .blog .list-post .entry-content .entry-expert .post-readMore a:hover,
+                .apps-footer .footer-bottom p a:hover {
+                    color: #F0C27B !important;
+                }
+
+                .app-overlay,
+                .gradient-bg-rgba,
+                .appsLand-navbar.navBar__style-2.active-navbar,
+                .team__style-2 .team-member .member-info {
+                    background-image: -webkit-linear-gradient(to right, rgba(75, 18, 72, 0.75) 0%, rgba(240, 194, 123, 0.75) 100%) !important;
+                    background-image: -o-linear-gradient(to right, rgba(75, 18, 72, 0.75) 0%, rgba(240, 194, 123, 0.75) 100%) !important;
+                    background-image: -moz-linear-gradient(to right, rgba(75, 18, 72, 0.75) 0%, rgba(240, 194, 123, 0.75) 100%) !important;
+                    background-image: linear-gradient(to right, rgba(75, 18, 72, 0.75) 0%, rgba(240, 194, 123, 0.75) 100%) !important;
+                }
+
+                .section-title.style-gradient > span:before {
+                    background-image: -webkit-linear-gradient(to right, #4B1248 0%, rgba(240, 194, 123, 0.3) 100%) !important;
+                    background-image: -o-linear-gradient(to right, #4B1248 0%, rgba(240, 194, 123, 0.3) 100%) !important;
+                    background-image: -moz-linear-gradient(to right, #4B1248 0%, rgba(240, 194, 123, 0.3) 100%) !important;
+                    background-image: linear-gradient(to right, #4B1248 0%, rgba(240, 194, 123, 0.3) 100%) !important;
+                }
+                .section-title.style-gradient > span:after {
+                    background-image: -webkit-linear-gradient(to right, #F0C27B 0%, rgba(240, 194, 123, 0.3) 100%) !important;
+                    background-image: -o-linear-gradient(to right, #F0C27B 0%, rgba(240, 194, 123, 0.3) 100%) !important;
+                    background-image: -moz-linear-gradient(to right, #F0C27B 0%, rgba(240, 194, 123, 0.3) 100%) !important;
+                    background-image: linear-gradient(to right, #F0C27B 0%, rgba(240, 194, 123, 0.3) 100%) !important;
+                }
+                .section-title.style-gradient > span > span {
+                    border-image: 1 linear-gradient(135deg, #4B1248 0%, #F0C27B 100%) !important;
+                }
+
+                .main-color-bg,
+                .appsLand-btn.appsLand-btn-blue,
+                .appsLand-btn.appsLand-btn-blue.btn-rgba:hover,
+                .appsLand-navbar.active-navbar .menu-toggle .chart {
+                    background: #4B1248 !important;
+                }
+
+                .border-main-color, .features__style-2 .feat-tabs li.active {
+                    border-color: #4B1248 !important;
+                }
+
+                .gradient-text-rgba,
+                .testimonials .testimonials-template .testimonials-slide:before,
+                .contact .contact-form:before {
+                    background-image: -webkit-linear-gradient(to right, rgba(75, 18, 72, 0.2) 0%, rgba(240, 194, 123, 0.2) 100%) !important;
+                    background-image: -o-linear-gradient(to right, rgba(75, 18, 72, 0.2) 0%, rgba(240, 194, 123, 0.2) 100%) !important;
+                    background-image: -moz-linear-gradient(to right, rgba(75, 18, 72, 0.2) 0%, rgba(240, 194, 123, 0.2) 100%) !important;
+                    background-image: linear-gradient(to right, rgba(75, 18, 72, 0.2) 0%, rgba(240, 194, 123, 0.2) 100%) !important;
+                }
+                /*linear-gradient(to right, #4B1248, #F0C27B);*/
+            </pre>
+        </div>
+    </div>
+    <div class="dash_panel" id="navbar">
+        <h1 class="section-title">Navbar</h1>
+        <h3>1- navBar scroll Links</h3>
+        <p>
+            to make scroll link we make the <span class="blue-bold">href</span> value = <span
+                class="blue-bold">#idValue</span>
+            Like
+        </p>
+        <div class="pre-container">
+            <pre class="brush: html;">
+                <li><a href="#home">Home</a></li>
+
+                <section id="home">....</section>
+            </pre>
+        </div>
+        <h3>2- Dropdown Menu</h3>
+        <p>
+            we should add 2 dropdown menu one for the larg screen and the other to small screen
+        </p>
+        <div class="pre-container">
+            <pre class="brush: html;">
+                <!-- Large screen Dropdown -->
+                <li class="dropdown hidden-xs">
+                    <a href="index.html#blog">Blog</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="blog-3-column.html">Blog 3 Column</a></li>
+                        <li><a href="blog-2-column.html">Blog 2 Column</a></li>
+                        <li><a href="blog-2-column-sidebar-left.html">2 Column Left Aside</a></li>
+                        <li><a href="blog-2-column-sidebar-right.html">2 Column Right Aside</a></li>
+                        <li><a href="blog-list-full-width.html">Blog List Full Width</a></li>
+                        <li><a href="blog-list-sidebar-left.html">List Left Aside</a></li>
+                        <li><a href="blog-list-sidebar-right.html">List Right Aside</a></li>
+                        <li><a href="single-post.html">Single Post Full Width</a></li>
+                        <li><a href="single-post-sidebar-left.html">Single Post Left Aside</a></li>
+                        <li><a href="single-post-sidebar-right.html">Single Post Right Aside</a></li>
+                    </ul>
+                </li>
+
+                <!-- small screen Dropdown -->
+                <li class="visible-xs-block mobile-dropdown-menu">
+                    <span class="block pointer" role="button" data-toggle="collapse" data-target="#blog_menu"
+                          aria-expanded="false">
+                        Blog
+                    </span>
+                    <ul class="collapse list-unstyled" id="blog_menu">
+                        <li><a href="index.html#blog">Last News</a></li>
+                        <li><a href="blog-3-column.html">Blog 3 Column</a></li>
+                        <li><a href="blog-2-column.html">Blog 2 Column</a></li>
+                        <li><a href="blog-2-column-sidebar-left.html">2 Column Left Aside</a></li>
+                        <li><a href="blog-2-column-sidebar-right.html">2 Column Right Aside</a></li>
+                        <li><a href="blog-list-full-width.html">Blog List Full Width</a></li>
+                        <li><a href="blog-list-sidebar-left.html">List Left Aside</a></li>
+                        <li><a href="blog-list-sidebar-right.html">List Right Aside</a></li>
+                        <li><a href="single-post.html">Single Post Full Width</a></li>
+                        <li><a href="single-post-sidebar-left.html">Single Post Left Aside</a></li>
+                        <li><a href="single-post-sidebar-right.html">Single Post Right Aside</a></li>
+                    </ul>
+                </li>
+            </pre>
+        </div>
+        <h3>2- navbar styles</h3>
+        <p> navbar style1 </p>
+        <img src="images/nav_white.png" alt="" class="img-responsive">
+        <div class="pre-container">
+            <pre class="brush: html;">
+                <!-- navbar
+                ========================================-->
+                <nav class="navbar navbar-default navbar-fixed-top appsLand-navbar">
+                    <div class="container">
+                        <!-- Brand and toggle get grouped for better mobile display -->
+                        <div class="navbar-header">
+                            <span class="menu-toggle">
+                                <i class="chart"></i>
+                                <i class="chart"></i>
+                                <i class="chart"></i>
+                            </span>
+                            <a class="navbar-brand" href="#">
+                                <img alt="" src="images/logo.png">
+                            </a>
+                        </div>
+                        <!-- Collect the nav links, forms, and other content for toggling -->
+                        <div class="app-links" id="bs-example-navbar-collapse-1">
+                            <ul class="nav navbar-nav navbar-right appsLand-links">
+                                <li class="visible-xs-block text-center mobile-size-logo">
+                                    <a href="#">
+                                        <img alt="" src="images/logo.png">
+                                    </a>
+                                </li>
+                                <li><a href="index-demo1.html#home">Home</a></li>
+                                <li><a href="index-demo1.html#features">Features</a></li>
+                                <li><a href="index-demo1.html#download">Download</a></li>
+                                <li><a href="index-demo1.html#pricing">Pricing</a></li>
+                                <li><a href="index-demo1.html#testimonials">Testimonials</a></li>
+                                <li class="dropdown hidden-xs">
+                                    <a href="index.html#blog">Blog</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="blog-3-column.html">Blog 3 Column</a></li>
+                                        <li><a href="blog-2-column.html">Blog 2 Column</a></li>
+                                        <li><a href="blog-2-column-sidebar-left.html">2 Column Left Aside</a></li>
+                                        <li><a href="blog-2-column-sidebar-right.html">2 Column Right Aside</a></li>
+                                        <li><a href="blog-list-full-width.html">Blog List Full Width</a></li>
+                                        <li><a href="blog-list-sidebar-left.html">List Left Aside</a></li>
+                                        <li><a href="blog-list-sidebar-right.html">List Right Aside</a></li>
+                                        <li><a href="single-post.html">Single Post Full Width</a></li>
+                                        <li><a href="single-post-sidebar-left.html">Single Post Left Aside</a></li>
+                                        <li><a href="single-post-sidebar-right.html">Single Post Right Aside</a></li>
+                                    </ul>
+                                </li>
+                                <li class="visible-xs-block mobile-dropdown-menu">
+                                    <span class="block pointer" role="button" data-toggle="collapse"
+                                          data-target="#blog_menu" aria-expanded="false">
+                                        Blog
+                                    </span>
+                                    <ul class="collapse list-unstyled" id="blog_menu">
+                                        <li><a href="index.html#blog">Last News</a></li>
+                                        <li><a href="blog-3-column.html">Blog 3 Column</a></li>
+                                        <li><a href="blog-2-column.html">Blog 2 Column</a></li>
+                                        <li><a href="blog-2-column-sidebar-left.html">2 Column Left Aside</a></li>
+                                        <li><a href="blog-2-column-sidebar-right.html">2 Column Right Aside</a></li>
+                                        <li><a href="blog-list-full-width.html">Blog List Full Width</a></li>
+                                        <li><a href="blog-list-sidebar-left.html">List Left Aside</a></li>
+                                        <li><a href="blog-list-sidebar-right.html">List Right Aside</a></li>
+                                        <li><a href="single-post.html">Single Post Full Width</a></li>
+                                        <li><a href="single-post-sidebar-left.html">Single Post Left Aside</a></li>
+                                        <li><a href="single-post-sidebar-right.html">Single Post Right Aside</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="index-demo1.html#contact">Contact</a></li>
+                            </ul>
+                        </div><!-- /.navbar-collapse -->
+                    </div><!-- /.container-fluid -->
+                </nav>
+            </pre>
+        </div>
+        <br>
+        <p> navbar style2 </p>
+        <img src="images/nav_transparent.png" alt="" class="img-responsive">
+        <div class="pre-container">
+            <pre class="brush: html;">
+                <!-- navbar
+                ========================================-->
+                <nav class="navbar navbar-default navbar-fixed-top appsLand-navbar navBar__style-2">
+                    <div class="container">
+                        <!-- Brand and toggle get grouped for better mobile display -->
+                        <div class="navbar-header">
+                            <span class="menu-toggle">
+                                <i class="chart"></i>
+                                <i class="chart"></i>
+                                <i class="chart"></i>
+                            </span>
+                            <a class="navbar-brand" href="#">
+                                <img alt="" src="images/logo.png">
+                            </a>
+                        </div>
+                        <!-- Collect the nav links, forms, and other content for toggling -->
+                        <div class="app-links" id="bs-example-navbar-collapse-1">
+                            <ul class="nav navbar-nav navbar-right appsLand-links">
+                                <li class="visible-xs-block text-center mobile-size-logo">
+                                    <a href="#">
+                                        <img alt="" src="images/logo.png">
+                                    </a>
+                                </li>
+                                <li><a href="index-demo1.html#home">Home</a></li>
+                                <li><a href="index-demo1.html#features">Features</a></li>
+                                <li><a href="index-demo1.html#download">Download</a></li>
+                                <li><a href="index-demo1.html#pricing">Pricing</a></li>
+                                <li><a href="index-demo1.html#testimonials">Testimonials</a></li>
+                                <li class="dropdown hidden-xs">
+                                    <a href="index.html#blog">Blog</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="blog-3-column.html">Blog 3 Column</a></li>
+                                        <li><a href="blog-2-column.html">Blog 2 Column</a></li>
+                                        <li><a href="blog-2-column-sidebar-left.html">2 Column Left Aside</a></li>
+                                        <li><a href="blog-2-column-sidebar-right.html">2 Column Right Aside</a></li>
+                                        <li><a href="blog-list-full-width.html">Blog List Full Width</a></li>
+                                        <li><a href="blog-list-sidebar-left.html">List Left Aside</a></li>
+                                        <li><a href="blog-list-sidebar-right.html">List Right Aside</a></li>
+                                        <li><a href="single-post.html">Single Post Full Width</a></li>
+                                        <li><a href="single-post-sidebar-left.html">Single Post Left Aside</a></li>
+                                        <li><a href="single-post-sidebar-right.html">Single Post Right Aside</a></li>
+                                    </ul>
+                                </li>
+                                <li class="visible-xs-block mobile-dropdown-menu">
+                                    <span class="block pointer" role="button" data-toggle="collapse"
+                                          data-target="#blog_menu" aria-expanded="false">
+                                        Blog
+                                    </span>
+                                    <ul class="collapse list-unstyled" id="blog_menu">
+                                        <li><a href="index.html#blog">Last News</a></li>
+                                        <li><a href="blog-3-column.html">Blog 3 Column</a></li>
+                                        <li><a href="blog-2-column.html">Blog 2 Column</a></li>
+                                        <li><a href="blog-2-column-sidebar-left.html">2 Column Left Aside</a></li>
+                                        <li><a href="blog-2-column-sidebar-right.html">2 Column Right Aside</a></li>
+                                        <li><a href="blog-list-full-width.html">Blog List Full Width</a></li>
+                                        <li><a href="blog-list-sidebar-left.html">List Left Aside</a></li>
+                                        <li><a href="blog-list-sidebar-right.html">List Right Aside</a></li>
+                                        <li><a href="single-post.html">Single Post Full Width</a></li>
+                                        <li><a href="single-post-sidebar-left.html">Single Post Left Aside</a></li>
+                                        <li><a href="single-post-sidebar-right.html">Single Post Right Aside</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="index-demo1.html#contact">Contact</a></li>
+                            </ul>
+                        </div><!-- /.navbar-collapse -->
+                    </div><!-- /.container-fluid -->
+                </nav>
+            </pre>
+        </div>
+    </div>
+    <div class="dash_panel" id="statistics">
+        <h1 class="section-title">Statistics</h1>
+        <h3>1- navBar scroll Links</h3>
+        <p>
+            to change value of statistic just change <span class="blue-bold">data-to</span> value to your value
+        </p>
+        <div class="pre-container">
+            <pre class="brush: html;">
+                <div class="stats-data">
+                    <p class="timer" data-from="70" data-to="2750" data-speed="6000">0</p>
+                    <h5>Download</h5>
+                </div>
+            </pre>
+        </div>
+    </div>
+    <div class="dash_panel" id="coming_soon">
+        <h1 class="section-title">Coming Soon</h1>
+        <p>
+            To change launch date just change the value of <span class="blue-bold">date-date</span> to your date
+        </p>
+        <div class="pre-container">
+            <pre class="brush: html;">
+                <div class="countdown wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.25s"
+                     data-date="2018-01-01"></div>
+            </pre>
+        </div>
+    </div>
+    <div class="dash_panel" id="faq">
+        <h1 class="section-title">FAQ</h1>
+        <p>
+            Note That <span class="blue-bold">data-parent = parent(.panel-group) id</span> AND <span class="blue-bold">href = (.panel-collapse) id</span>
+        </p>
+        <div class="pre-container">
+            <pre class="brush: html;">
+                <div class="panel-group questions-container" id="accordion" role="tablist" aria-multiselectable="true">
+                    <div class="panel panel-default wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.25s">
+                        <div class="panel-heading" role="tab" id="headingOne">
+                            <h4 class="panel-title">
+                                <a class="gradient-bg" role="button" data-toggle="collapse" data-parent="#accordion"
+                                   href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    <span>How do I list multiple rooms?</span>
+                                </a>
+                            </h4>
+                        </div>
+                        <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel"
+                             aria-labelledby="headingOne">
+                            <div class="panel-body">
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab assumenda harum ipsa ipsum magnam nihil nulla odio qui quis, unde. Ad id ipsum laudantium natus officia sit vero! Dignissimos, dolorum.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel panel-default wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.25s">
+                        <div class="panel-heading" role="tab" id="headingTwo">
+                            <h4 class="panel-title">
+                                <a class="collapsed gradient-bg" role="button" data-toggle="collapse"
+                                   data-parent="#accordion" href="#collapseTwo" aria-expanded="false"
+                                   aria-controls="collapseTwo">
+                                    <span>How Can I Manage The Notifications?</span>
+                                </a>
+                            </h4>
+                        </div>
+                        <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel"
+                             aria-labelledby="headingTwo">
+                            <div class="panel-body">
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab assumenda harum ipsa ipsum magnam nihil nulla odio qui quis, unde. Ad id ipsum laudantium natus officia sit vero! Dignissimos, dolorum.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel panel-default wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.25s">
+                        <div class="panel-heading" role="tab" id="headingThree">
+                            <h4 class="panel-title">
+                                <a class="collapsed gradient-bg" role="button" data-toggle="collapse"
+                                   data-parent="#accordion" href="#collapseThree" aria-expanded="false"
+                                   aria-controls="collapseThree">
+                                    <span>How do I edit my calendar?</span>
+                                </a>
+                            </h4>
+                        </div>
+                        <div id="collapseThree" class="panel-collapse collapse" role="tabpanel"
+                             aria-labelledby="headingThree">
+                            <div class="panel-body">
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab assumenda harum ipsa ipsum magnam nihil nulla odio qui quis, unde. Ad id ipsum laudantium natus officia sit vero! Dignissimos, dolorum.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel panel-default wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.25s">
+                        <div class="panel-heading" role="tab" id="headingFour">
+                            <h4 class="panel-title">
+                                <a class="collapsed gradient-bg" role="button" data-toggle="collapse"
+                                   data-parent="#accordion" href="#collapseFour" aria-expanded="false"
+                                   aria-controls="collapseThree">
+                                    <span>Why was my listing deactivated?</span>
+                                </a>
+                            </h4>
+                        </div>
+                        <div id="collapseFour" class="panel-collapse collapse" role="tabpanel"
+                             aria-labelledby="headingFour">
+                            <div class="panel-body">
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab assumenda harum ipsa ipsum magnam nihil nulla odio qui quis, unde. Ad id ipsum laudantium natus officia sit vero! Dignissimos, dolorum.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </pre>
+        </div>
+    </div>
+    <div class="dash_panel" id="video">
+        <h1 class="section-title">Video</h1>
+        <p>
+            To change The video change the value of <span class="blue-bold">href</span> to your youtube link video
+        </p>
+        <div class="pre-container">
+            <pre class="brush: html;">
+                <div class="play-video-icon wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.25s">
+                    <a href="http://m.youtube.com/watch?v=XSGBVzeBUbk" data-lity="">
+                        <img alt="" src="images/icon-14.png">
+                    </a>
+                </div>
+            </pre>
+        </div>
+    </div>
+</div>
+<!-- start the script -->
+<script src="js/jquery-2.2.4.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/plugins.js"></script>
+<!-- end the script -->
+
+<script src="syntax-highlighter/scripts/shCore.js"></script>
+<script src="syntax-highlighter/scripts/shBrushXml.js"></script>
+<script src="syntax-highlighter/scripts/shBrushCss.js"></script>
+<script src="syntax-highlighter/scripts/shBrushJScript.js"></script>
+
+</body>
+</html>

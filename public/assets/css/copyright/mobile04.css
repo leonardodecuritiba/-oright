@@ -1,0 +1,41 @@
+body{width: 100%;}
+
+#title1{font-size: 25px;letter-spacing:5px;}
+
+#title2{font-size: 16px;}
+
+#title3{font-size: 16px;letter-spacing: 2px;}
+
+h2{font-size: 16px;letter-spacing: 2px;}
+
+p{font-size: 16px;letter-spacing: 1px;}
+
+hr{margin-left: -5px;margin-top:20px;}
+
+#container{position: relative;width: 90%;margin: 0 auto;}
+
+#top{padding-top: 20px;}
+
+#rights{width: 20%;padding-top: 15px;}
+
+#icon{width: 70%;height: 70%;}
+
+#left{display: block;}
+
+#thumbnail{width: 85%;height: 380px;top: 230px;}
+
+#copy{width: 85%;left: 0px;letter-spacing: 0px;}
+
+#right{width: 50%;}
+
+#registry{left: 80px;font-size: 16px;letter-spacing: 1px;}
+
+#qrcode{left:8%;}
+
+#code{margin-top: 20px;}
+
+#bottom{position: relative;margin-top: 760px;}
+
+#term{width: 75%;position: absolute;display: block;float: left;padding-bottom: 0px;top: 20px;}
+
+#blockchain{width: 20%;float: left;left: 80%;top: 72px;padding-bottom: 20px;}

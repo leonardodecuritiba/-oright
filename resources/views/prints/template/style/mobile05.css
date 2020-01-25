@@ -1,0 +1,17 @@
+body{width: 100%;}
+
+#copy{width: 85%;left: 0px;letter-spacing: 0px;}
+
+#title2{font-size: 20px;}
+
+#thumbnail{width: 85%;height: 380px;top: 230px;}
+
+#qrcode{left: 8%;}
+
+#term{position: absolute;width: 80%;}
+
+#bottom{position: relative;margin-top: 840px;}
+
+#blockchain{width: 15%;left: 500px;top: 72px;padding-bottom: 50px;}
+
+#registry{font-size: 20px;letter-spacing: 2px;}
